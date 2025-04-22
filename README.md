@@ -19,10 +19,10 @@
 
 ## Funcionalidades
 
-✔️ **Hero Section**: Uma introdução com uma breve descrição sobre mim e links para o meu currículo e GitHub.
-✔️ **Sobre Mim**: Uma seção que descreve minha formação, habilidades e experiências profissionais.
-✔️ **Formação**: Detalha minha educação e os cursos que realizei.
-✔️ **Experiência**: Apresenta meus estágios e outras experiências profissionais.
-✔️ **Skills**: Mostra as tecnologias que tenho conhecimento, com ícones representando cada uma.
-✔️ **Cursos e Certificados**: Exibe cursos e certificações que realizei ao longo da minha jornada.
-✔️ **Contato**: Informações de contato, incluindo meu LinkedIn, GitHub e email. 
+✔️ **Hero Section**: Uma introdução com uma breve descrição sobre mim e links para o meu currículo e GitHub.  
+✔️ **Sobre Mim**: Uma seção que descreve minha formação, habilidades e experiências profissionais.  
+✔️ **Formação**: Detalha minha educação e os cursos que realizei.  
+✔️ **Experiência**: Apresenta meus estágios e outras experiências profissionais.  
+✔️ **Skills**: Mostra as tecnologias que tenho conhecimento, com ícones representando cada uma.  
+✔️ **Cursos e Certificados**: Exibe cursos e certificações que realizei ao longo da minha jornada.  
+✔️ **Contato**: Informações de contato, incluindo meu LinkedIn, GitHub e email.  
