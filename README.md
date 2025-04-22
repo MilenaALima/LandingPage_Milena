@@ -1,12 +1,12 @@
 # Milena Araújo Lima - Portfólio
 
-🔹 **HTML**
-🔹 **CSS**
-🔹 **JavaScript**
-🔹 **React**
-🔹 **Python**
-🔹 **C#**
-🔹 **SQL** e **PL/SQL**
+🔹 **HTML**  
+🔹 **CSS**  
+🔹 **JavaScript**  
+🔹 **React**  
+🔹 **Python**  
+🔹 **C#**  
+🔹 **SQL** e **PL/SQL**  
 
 ---
 
