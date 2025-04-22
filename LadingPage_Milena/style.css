@@ -1,0 +1,198 @@
+:root {
+    --roxo: #8e44ad;
+    --preto: #121212;
+    --branco: #ffffff;
+    --cinza: #222;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    font-family: "Quicksand", serif;
+    background-color: var(--preto);
+    color: var(--branco);
+    line-height: 1.6;
+}
+
+header{
+    background: var(--cinza);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    color: var(--roxo);
+    font-size: 1.8rem;
+}
+
+nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: var(--branco);
+    transition: color 0.3s;
+}
+  
+nav a:hover {
+    color: var(--roxo);
+}
+  
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(180deg, #1e1e1e, #121212);
+}
+
+.hero h2 {
+    color: var(--roxo);
+    font-size: 2rem;
+  }
+
+.btns {
+    margin-top: 2rem;
+  }
+  
+  .btn {
+    background: var(--roxo);
+    color: var(--branco);
+    padding: 0.75rem 1.5rem;
+    margin: 0 0.5rem;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background: #732d91;
+  }
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    
+}
+
+.sobre-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid var(--roxo);
+
+}
+
+/*Icones habilidades*/
+#skills {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: var(--cinza);
+}
+
+.skills-list {
+    display: flex;  /* Flexbox para alinhar itens lado a lado */
+    justify-content: center;  /* Centraliza os itens */
+    gap: 30px;  /* Espaçamento entre os ícones */
+    flex-wrap: wrap;  /* Permite que os itens quebrem linha em telas menores */
+}
+
+.skill {
+    background: var(--preto);
+    padding: 20px;
+    border-radius: 8px;
+    color: var(--branco);
+    text-align: center;
+    border: 2px solid var(--roxo);
+    width: 120px; /* Definir uma largura fixa para cada ícone */
+    transition: transform 0.3s;
+}
+
+.skill-icon {
+    font-size: 50px;
+    color: var(--roxo);
+    margin-bottom: 10px;
+    transition: transform 0.3s;
+}
+
+.skill-icon:hover {
+    transform: scale(1.2);
+}
+
+.skill p {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.texto {
+    max-width: 600px;
+}
+
+.card {
+    background: #1e1e1e;
+    padding: 1rem;
+    border-left: 4px solid var(--roxo);
+    margin: 1rem 0;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: var(--cinza);
+    color: var(--branco);
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .btns {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+  
+    .btn {
+      width: 100%;
+      text-align: center;
+    }
+
+    .sobre-content {
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap;
+      }
+
+    .profile-pic {
+        margin-bottom: 20px;
+    }
+
+    /*Habilidades*/
+    .skills-list {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .skill {
+        width: 150px;  
+        margin-bottom: 20px;
+    }
+}
